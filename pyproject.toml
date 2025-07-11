@@ -1,0 +1,19 @@
+[project]
+name = "backend"
+version = "0.1.0"
+description = "Backend - Projeto para a Hackaton - IMT"
+authors = [
+    {name = "Lucidrey", email = "Lucidreymaitab@gmail.com"},
+]
+dependencies = ["django>=4.2.23"]
+requires-python = ">=3.9"
+readme = "README.md"
+license = {text = "MIT"}
+
+[build-system]
+requires = ["pdm-backend"]
+build-backend = "pdm.backend"
+
+
+[tool.pdm]
+distribution = true
