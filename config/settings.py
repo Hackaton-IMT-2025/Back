@@ -84,7 +84,7 @@ DATABASES = {
         'PORT': '3306',
     }
 }
-
+# DATABASES = Falta solucionar o erro do mysql.connector
 
 
 # Password validation
