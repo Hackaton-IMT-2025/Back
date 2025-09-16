@@ -77,15 +77,13 @@ WSGI_APPLICATION = 'config.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'projeto_banco_dados',
+        'NAME': 'imt_db',
         'USER': 'root',
-        'PASSWORD': 'root',
-        'HOST': 'localhost',
+        'PASSWORD': 'lucy@2025',
+        'HOST': '127.0.0.1',
         'PORT': '3306',
     }
 }
-# DATABASES = Falta solucionar o erro do mysql.connector
-
 
 # Password validation
 # https://docs.djangoproject.com/en/4.2/ref/settings/#auth-password-validators
